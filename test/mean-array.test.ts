@@ -8,3 +8,8 @@ test("al resultado de 4.5 (6+3)/2", () =>{
 test("al resultado de 1.5 (5+5)/2", () =>{
     expect(mean([5,5])).toBe(1.5);
     });
+
+        
+test("al resultado de 1.5 (5+9)/2", () =>{
+    expect(mean([5,9])).toBe(1.5);
+    });
