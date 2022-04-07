@@ -14,5 +14,5 @@ test ("conts array contains Oct", () => {
 });
 
 test ("conts array contains Nov", () => {
-    expect (monthsUnac()).toContain ("dic");
+    expect (monthsUnac()).toContain ("diciembre");
 });
