@@ -18,7 +18,6 @@ test("traducir moon a luna", () =>{
     expect(translateUnac('Moon')).toMatch(/default/);
 });
 
-// test malos 
 test("traducir moon a luna", () =>{
     //probar
     expect(translateUnac('moon')).toMatch(/Luna/);
